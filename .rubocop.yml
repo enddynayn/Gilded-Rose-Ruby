@@ -1,5 +1,5 @@
 AllCops:
-  TargetRubyVersion: 2.2
+  TargetRubyVersion: 2.7
 
   Exclude:
     - "bin/**/*"
@@ -24,10 +24,6 @@ Style/MutableConstant:
 
 # We are not going to distinguish between fail and raise.
 Style/SignalException:
-  Enabled: false
-
-# We are not going to line up parameters that span more than one line.
-Style/AlignParameters:
   Enabled: false
 
 # We are okay with using extend self instead of module_function.
